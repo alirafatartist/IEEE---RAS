@@ -10,9 +10,7 @@ The Arduino generates tones using a piezo buzzer:
 
 ## Demo
 
-<video src="PiezoBuzzerTone.mp4" controls width="400">
-  Your browser does not support the video tag.
-</video>
+[▶️ Watch Demo Video](PiezoBuzzerTone.mp4)
 
 ## License
 
