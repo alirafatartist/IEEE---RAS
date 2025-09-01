@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "author": "ᗩ",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-nano", "id": "nano", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -132,
+      "left": 49.8,
+      "attrs": { "volume": "0.1" }
+    },
+    {
+      "type": "wokwi-pushbutton-6mm",
+      "id": "btn1",
+      "top": 93.8,
+      "left": 86.4,
+      "attrs": { "color": "green", "xray": "1" }
+    }
+  ],
+  "connections": [
+    [ "bz1:2", "nano:GND.2", "green", [ "v38.4", "h38" ] ],
+    [ "btn1:1.r", "nano:GND.2", "green", [ "v0", "h77.6", "v-105.6", "h-67.2" ] ],
+    [ "btn1:2.l", "nano:A2", "green", [ "h0" ] ],
+    [ "bz1:1", "nano:6", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
